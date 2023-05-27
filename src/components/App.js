@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ShopsPage from './pages/ShopsPage';
-import ShoppingCartPage from './pages/ShoppingCartPage';
+import ShopsPage from './ShopsPage';
+import ShoppingCartPage from './ShoppingCartPage';
 
 function App() {
   const [selectedShop, setSelectedShop] = useState(null);

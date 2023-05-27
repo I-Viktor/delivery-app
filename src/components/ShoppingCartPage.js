@@ -1,5 +1,5 @@
 import React from 'react';
-import './ShoppingCartPage.css'; 
+import '../pages/ShoppingCartPage.css'; 
 
 function ShoppingCartPage({ cartItems, handleRemoveFromCart }) {
   const handleRemoveClick = (productId) => {

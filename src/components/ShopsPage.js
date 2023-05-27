@@ -1,5 +1,5 @@
 import React from 'react';
-import './ShopsPage.css';
+import '../pages/ShopPage.css'
 
 function ShopsPage({ selectedShop, handleShopSelection, handleAddToCart }) {
   const shops = [
