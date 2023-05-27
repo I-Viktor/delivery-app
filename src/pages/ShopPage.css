@@ -36,6 +36,7 @@
   }
   
   .product-list li {
+    border: 1px solid;
     display: flex;
     align-items: center;
     justify-content: space-around;
