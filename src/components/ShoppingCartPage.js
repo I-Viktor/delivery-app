@@ -13,7 +13,7 @@ function ShoppingCartPage({ cartItems, handleRemoveFromCart }) {
         <ul className="cart-item-list">
           {cartItems.map(item => (
             <li key={item.id}>
-              <span>{item.name}</span>
+              <span>{item.title}</span>
               <button onClick={() => handleRemoveClick(item.id)}>Remove</button>
             </li>
           ))}
