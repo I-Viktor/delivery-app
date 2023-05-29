@@ -13,9 +13,7 @@ function ShopsPage({ selectedShop, handleShopSelection, handleAddToCart }) {
     handleShopSelection(shop);
   };
 
-  // const handleAddToCartClick = (product) => {
-  //   handleAddToCart(product);
-  // };
+
 
   return (
     <div className="shops-page">
