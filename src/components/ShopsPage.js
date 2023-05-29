@@ -13,9 +13,9 @@ function ShopsPage({ selectedShop, handleShopSelection, handleAddToCart }) {
     handleShopSelection(shop);
   };
 
-  const handleAddToCartClick = (product) => {
-    handleAddToCart(product);
-  };
+  // const handleAddToCartClick = (product) => {
+  //   handleAddToCart(product);
+  // };
 
   return (
     <div className="shops-page">
@@ -43,7 +43,7 @@ function ShopsPage({ selectedShop, handleShopSelection, handleAddToCart }) {
                 title="Product 1"
                 price="$9.99"
               />
-              <button onClick={() => handleAddToCartClick({ id: 1, name: "Product 1" })}>Add to Cart</button>
+              
             </li>
             <li>
               <ProductCard
@@ -51,7 +51,7 @@ function ShopsPage({ selectedShop, handleShopSelection, handleAddToCart }) {
                 title="Product 2"
                 price="$14.99"
               />
-              <button onClick={() => handleAddToCartClick({ id: 2, name: "Product 2" })}>Add to Cart</button>
+              
             </li>
             <li>
               <ProductCard
@@ -59,7 +59,7 @@ function ShopsPage({ selectedShop, handleShopSelection, handleAddToCart }) {
                 title="Product 3"
                 price="$19.99"
               />
-              <button onClick={() => handleAddToCartClick({ id: 3, name: "Product 3" })}>Add to Cart</button>
+             
             </li>
           </ul>
         </div>
